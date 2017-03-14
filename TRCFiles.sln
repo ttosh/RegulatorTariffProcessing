@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCFiles", "TRCFiles.csproj", "{75AA0A51-2B11-4C3E-9564-35E0B2007908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCFileWatcherSvc", "TRCFileWatcherSvc\TRCFileWatcherSvc.csproj", "{473AE5E8-6B86-44FF-98A7-8F807B377BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCTariffPDFUtil", "TRCTariffPDFUtil\TRCTariffPDFUtil.csproj", "{02291116-7FB9-41D7-B76D-41C5B66CC618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCAttributes", "TRCAttributes\TRCAttributes.csproj", "{36550E1C-2FCC-48A4-8A7B-6FE134847869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCBusiness", "TRCBusiness\TRCBusiness.csproj", "{E8836433-35AB-4B35-95C7-CCE1FA2149F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCDataAccess", "TRCDataAccess\TRCDataAccess.csproj", "{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRCUtilities", "TRCUtilities\TRCUtilities.csproj", "{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "TRCFileWatcherSvcSetup", "..\TRCFileWatcherSvcSetup\TRCFileWatcherSvcSetup.isproj", "{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1} = {473AE5E8-6B86-44FF-98A7-8F807B377BE1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://srvtfsapp10poke:8080/tfs/oneok
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TRCFiles.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = TRCFileWatcherSvc\\TRCFileWatcherSvc.csproj
+		SccProjectName2 = TRCFileWatcherSvc
+		SccLocalPath2 = TRCFileWatcherSvc
+		SccProjectUniqueName3 = TRCTariffPDFUtil\\TRCTariffPDFUtil.csproj
+		SccProjectName3 = TRCTariffPDFUtil
+		SccLocalPath3 = TRCTariffPDFUtil
+		SccProjectUniqueName4 = TRCAttributes\\TRCAttributes.csproj
+		SccProjectName4 = TRCAttributes
+		SccLocalPath4 = TRCAttributes
+		SccProjectUniqueName5 = TRCBusiness\\TRCBusiness.csproj
+		SccProjectName5 = TRCBusiness
+		SccLocalPath5 = TRCBusiness
+		SccProjectUniqueName6 = TRCDataAccess\\TRCDataAccess.csproj
+		SccProjectName6 = TRCDataAccess
+		SccLocalPath6 = TRCDataAccess
+		SccProjectUniqueName7 = TRCUtilities\\TRCUtilities.csproj
+		SccProjectName7 = TRCUtilities
+		SccLocalPath7 = TRCUtilities
+		SccProjectUniqueName8 = ..\\TRCFileWatcherSvcSetup\\TRCFileWatcherSvcSetup.isproj
+		SccProjectName8 = ../TRCFileWatcherSvcSetup
+		SccLocalPath8 = ..\\TRCFileWatcherSvcSetup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{75AA0A51-2B11-4C3E-9564-35E0B2007908}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{473AE5E8-6B86-44FF-98A7-8F807B377BE1}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{02291116-7FB9-41D7-B76D-41C5B66CC618}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{36550E1C-2FCC-48A4-8A7B-6FE134847869}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{E8836433-35AB-4B35-95C7-CCE1FA2149F1}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{5CED80D0-C6DA-49CD-A9D8-F4A969A90995}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{755CEF8A-4E32-4E96-9868-C9BC0FD516DE}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.Debug|Any CPU.ActiveCfg = DVD-5
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.Debug|Any CPU.Build.0 = DVD-5
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.DVD-5|Any CPU.Build.0 = DVD-5
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.Release|Any CPU.ActiveCfg = SingleImage
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.Release|Any CPU.Build.0 = SingleImage
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{2D1E06C9-C83C-4F71-ABBD-D6BAEB2B79E0}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
